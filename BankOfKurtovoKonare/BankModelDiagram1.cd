@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BankOfKurtovoKonare.BankMain">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAEAAABAAAAAA=</HashCode>
+      <FileName>BankMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankOfKurtovoKonare.Models.Account">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAACQAAAAEAAAABAAAAACAAAAA=</HashCode>
+      <FileName>Models\Account.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankOfKurtovoKonare.Models.Company">
+    <Position X="11.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQA=</HashCode>
+      <FileName>Models\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankOfKurtovoKonare.Models.Customer">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BankOfKurtovoKonare.Models.Deposit">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\Deposit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.373" />
+  </Class>
+  <Class Name="BankOfKurtovoKonare.Models.Individual">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQA=</HashCode>
+      <FileName>Models\Individual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankOfKurtovoKonare.Models.Loan">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\Loan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankOfKurtovoKonare.Models.Mortgage">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\Mortgage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BankOfKurtovoKonare.Interfaces.IAccount">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Interfaces\IAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankOfKurtovoKonare.Interfaces.ICustomer">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Interfaces\ICustomer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankOfKurtovoKonare.Interfaces.IDeposit">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDeposit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BankOfKurtovoKonare.Interfaces.IWithdraw">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IWithdraw.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
