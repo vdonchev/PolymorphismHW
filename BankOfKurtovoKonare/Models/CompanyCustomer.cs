@@ -1,6 +1,6 @@
 ﻿namespace BankOfKurtovoKonare.Models
 {
-    public class Company : Customer
+    public class CompanyCustomer : Customer
     {
         private const int ReqMonths = 2;
 

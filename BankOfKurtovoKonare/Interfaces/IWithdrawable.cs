@@ -1,6 +1,6 @@
 ﻿namespace BankOfKurtovoKonare.Interfaces
 {
-    public interface IWithdraw
+    public interface IWithdrawable
     {
         void WithdrawMoney(decimal money);
     }

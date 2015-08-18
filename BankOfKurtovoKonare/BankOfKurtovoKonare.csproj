@@ -44,15 +44,15 @@
     <Compile Include="BankMain.cs" />
     <Compile Include="Interfaces\IAccount.cs" />
     <Compile Include="Interfaces\ICustomer.cs" />
-    <Compile Include="Interfaces\IDeposit.cs" />
-    <Compile Include="Interfaces\IWithdraw.cs" />
+    <Compile Include="Interfaces\IDepositable.cs" />
+    <Compile Include="Interfaces\IWithdrawable.cs" />
     <Compile Include="Models\Account.cs" />
-    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\CompanyCustomer.cs" />
     <Compile Include="Models\Customer.cs" />
-    <Compile Include="Models\Deposit.cs" />
-    <Compile Include="Models\Individual.cs" />
-    <Compile Include="Models\Loan.cs" />
-    <Compile Include="Models\Mortgage.cs" />
+    <Compile Include="Models\DepositAccount.cs" />
+    <Compile Include="Models\IndividualCustomer.cs" />
+    <Compile Include="Models\LoanAccount.cs" />
+    <Compile Include="Models\MortgageAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

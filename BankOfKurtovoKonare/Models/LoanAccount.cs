@@ -2,23 +2,18 @@
 {
     using Interfaces;
 
-    public class Mortgage : Account
+    public class LoanAccount : Account
     {
-        public Mortgage(ICustomer customer, decimal ballance, decimal interesetRate)
+        public LoanAccount(ICustomer customer, decimal ballance, decimal interesetRate)
             : base(customer, ballance, interesetRate)
         {
         }
 
         public override decimal CalcInterest(int months)
         {
-            if (this.Customer is Individual && months <= 6)
+            if (months <= this.Customer.RequiredMonths)
             {
                 return 0;
-            }
-
-            if (this.Customer is Company && months <= 12)
-            {
-                return base.CalcInterest(months) / 2;
             }
 
             return base.CalcInterest(months);

@@ -15,11 +15,11 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="BankOfKurtovoKonare.Models.Company">
+  <Class Name="BankOfKurtovoKonare.Models.CompanyCustomer">
     <Position X="11.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQA=</HashCode>
-      <FileName>Models\Company.cs</FileName>
+      <FileName>Models\CompanyCustomer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BankOfKurtovoKonare.Models.Customer">
@@ -30,33 +30,33 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="BankOfKurtovoKonare.Models.Deposit">
+  <Class Name="BankOfKurtovoKonare.Models.DepositAccount">
     <Position X="3.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
-      <FileName>Models\Deposit.cs</FileName>
+      <FileName>Models\DepositAccount.cs</FileName>
     </TypeIdentifier>
     <Lollipop Orientation="Left" Position="0.373" />
   </Class>
-  <Class Name="BankOfKurtovoKonare.Models.Individual">
+  <Class Name="BankOfKurtovoKonare.Models.IndividualCustomer">
     <Position X="9.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQA=</HashCode>
-      <FileName>Models\Individual.cs</FileName>
+      <FileName>Models\IndividualCustomer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BankOfKurtovoKonare.Models.Loan">
+  <Class Name="BankOfKurtovoKonare.Models.LoanAccount">
     <Position X="5.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
-      <FileName>Models\Loan.cs</FileName>
+      <FileName>Models\LoanAccount.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BankOfKurtovoKonare.Models.Mortgage">
+  <Class Name="BankOfKurtovoKonare.Models.MortgageAccount">
     <Position X="8" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
-      <FileName>Models\Mortgage.cs</FileName>
+      <FileName>Models\MortgageAccount.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="BankOfKurtovoKonare.Interfaces.IAccount">
@@ -73,18 +73,18 @@
       <FileName>Interfaces\ICustomer.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="BankOfKurtovoKonare.Interfaces.IDeposit">
+  <Interface Name="BankOfKurtovoKonare.Interfaces.IDepositable">
     <Position X="1" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\IDeposit.cs</FileName>
+      <FileName>Interfaces\IDepositable.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="BankOfKurtovoKonare.Interfaces.IWithdraw">
+  <Interface Name="BankOfKurtovoKonare.Interfaces.IWithdrawable">
     <Position X="2.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces\IWithdraw.cs</FileName>
+      <FileName>Interfaces\IWithdrawable.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

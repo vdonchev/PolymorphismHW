@@ -3,7 +3,7 @@
     using System;
     using Interfaces;
 
-    public abstract class Account : IAccount, IDeposit
+    public abstract class Account : IAccount, IDepositable
     {
         private decimal ballance;
         private decimal interestRate;

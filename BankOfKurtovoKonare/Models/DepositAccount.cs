@@ -3,9 +3,9 @@
     using System;
     using Interfaces;
 
-    public class Deposit : Account, IWithdraw
+    public class DepositAccount : Account, IWithdrawable
     {
-        public Deposit(ICustomer customer, decimal ballance, decimal interesetRate)
+        public DepositAccount(ICustomer customer, decimal ballance, decimal interesetRate)
             : base(customer, ballance, interesetRate)
         {
         }
